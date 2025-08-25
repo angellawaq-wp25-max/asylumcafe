@@ -1,0 +1,104 @@
+/*Display Side by Side in Box*/
+
+.box-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.box-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.box-3 div {
+  width: 350px;
+}
+
+.box-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 100px;
+}
+
+
+/*Logo / Image Specific Class*/
+
+.big-logo {
+  width: 200px; 
+  height: auto;
+  margin-top: 10px;
+}
+
+.small-logo {
+  position: absolute;
+  width: 70px;
+  left: 0;
+  margin-right: 100px;
+  padding-left: 20px;
+
+}
+
+/*Title Styling*/
+
+.cafe-title-1 h1 {
+  margin: 0;
+  padding-top: 22px;
+  font-size: 60.5px;
+  color: #c8584b;
+  text-shadow: 3px 3px #9ba2ac;
+}
+
+.cafe-title-2 {
+  float: inline-start;
+  position: absolute;
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 100px;
+  font-size: 30.5px;
+  color: #f80c0c;
+  text-shadow: 1px 2px #9ba2ac;
+}
+
+.slogan {
+  text-align: center;
+  color: #c8584b;
+  text-shadow: 1px 1px #9ba2ac;
+}
+
+.red-text-1 h1, h3 {
+    color: #b30000;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    margin-top: 50px;
+}
+
+.red-text-1 h1 {
+  font-size: 55px;
+}
+
+/*Paragraph Styling*/
+
+.text-size-1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.shadow p {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.card{
+    background-color:white;
+    padding:10px 15px;
+    margin-bottom: 10px;
+    border-top:5px solid #e74c3c;
+    border-radius:4px ;
+    box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}

@@ -1,0 +1,86 @@
+/*Stylesheet for css that can be applied globally (applies to more than 1 page)*/
+
+/*Non-specific / Major Elements*/
+
+body {
+    background-color: #fffdea;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+header {
+  background-color: #b30000;
+   padding: 2px 0;
+  text-align: center;
+}
+
+.footer-1 {  
+  background-color: #F5F0C8;  
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #F5F0C8;  
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  border-top: 1px solid red;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/*Navigation Styling*/
+
+.main-nav {
+    margin: 20px auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-item a {
+  color: #fffdea;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s;  
+  
+}
+
+.nav-item a:hover {
+  background-color: #ff6666;
+}
+
+/*Logo Styling*/
+
+.logo {
+  background-color: white;
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
